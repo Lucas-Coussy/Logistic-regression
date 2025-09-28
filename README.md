@@ -6,9 +6,12 @@ Those two visualizations can be found below.
 
 It's interesting to note that the highest value form a zero after the model has been trained.
 
-## Updating data visual
-![](my_visualization/updating_beta.gif)
+## Logistic function
+![](my_visualization/logistic_graph_1.gif) \
+We can see our probabilities $p(x) = \frac{\exp( x^T  \beta)}{1 + \exp( x^T  \beta)}$ getting updated at each epoch in function of our product $x^T \beta$.
 
-## Cost function visual
-![](my_visualization/costs_function.gif)
+
+## Parameter Updates and Cost Function Visualization
+![](my_visualization/heatmap_with_cost_1.gif) \
+We can see our $\beta$ and our cost function (here our log-likelihood) getting updated over the epochs.
 
